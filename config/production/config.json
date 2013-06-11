@@ -1,0 +1,15 @@
+{
+	"ENV_NAME": "production",
+	"NAME": "本番環境",
+	"HOST_NAME": "localhost",
+	"PORT": "3000",
+	"BASIC_AUTH": "",
+	"handlers": {
+		"home": {
+			"url": "/"
+		},
+		"hoge/fuga": {
+			"url": "/hoge/fuga"
+		}
+	}
+}

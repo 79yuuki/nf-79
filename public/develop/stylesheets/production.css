@@ -1,0 +1,174 @@
+//隴幢ｽｬ騾｡�ｪ騾包ｽｨCSS
+
+@charaset "UTF-8";
+
+html, body{
+}
+
+.onBody{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+	margin: 0;
+	background: #000;
+}
+
+a{
+	cursor: pointer;
+	color: #f8b551;
+}
+
+.textCenter{ text-align: center !important; }
+.textLeft{ text-align: left !important; }
+.textRight{ text-align: right !important }
+
+hr{
+	background: -webkit-gradient(linear, left top, right top, from(#B19513), color-stop(0.3, #F8EAA8), color-stop(0.7, #C4A514), color-stop(0.9, #9D897E), to(#928900));
+	border: 0px;
+	height: 1px;
+	width: 100%;
+	margin: 0 !important;
+}
+
+#listStyle{
+	margin:0 auto;
+	//width:320px;
+	background-size: 320px 5px;
+}
+#listStyle ul{
+	list-style-type:none;
+	padding:0;
+	-webkit-padding-start: 0;
+	width: 100%;
+	margin: 0;
+}
+#listStyle ul li{
+	border-bottom:#021d28 1px solid;
+	border-top:#4f6a75 1px solid;
+	background-color:#032939;
+	width: 100%;
+	height:50px;
+	line-height:50px;
+	padding-left:10px;
+}
+#listStyle ul li.linkText{
+	line-height:25px;
+	margin-bottom: -3px;
+	text-shadow: 1px 1px 1px #222;
+}
+#listStyle ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	//padding-left: 10px;
+}
+#listStyle ul li.cardSearch{
+	height:100px !important;
+	line-height: 25px;
+	padding-top: 15px;
+	margin-bottom: -10px;
+}
+#listStyle ul li:last-child{
+	border-top:#4f6a75 1px solid;
+	border-bottom:none;
+	background-color:#032939;
+}
+
+.subTitle08{
+	font-size: 18px;
+	height: 34px;
+	line-height: 34px;
+	background-size: 13.5px 34px,13.5px 34px,100% 3.5px,100% 3.5px, 320px 33px;
+	text-shadow: -1px -1px 1px black;
+	color:#fff;
+	margin: 0;
+}
+
+.subTitle08.dpBlue{
+	background:
+		url("/img/h3-blue_deco-frame_left.png") no-repeat,
+		url("/img/h3-blue_deco-frame_right.png") no-repeat,
+		url("/img/sub-title01_bg.png") repeat-x;
+	background-size: 13px 32px, 13px 32px, 320px 33px;
+	background-position: left,right,top,bottom,center;
+}
+.subTitle05{
+	background: url("/img/bgSubTitle05.jpg") repeat-x;
+	text-shadow: -1px -1px 1px black;
+	font-weight: 700;
+	padding: 5px 0px 0px 10px;
+	text-align: left;
+	height: 25px;
+	line-height: 23px;
+}
+.mg10{
+	margin:10px;
+}
+table{
+	width:100%;
+}
+th{
+	background: #4682B4;
+	border-left:1px solid #ccc;
+}
+th:first-child{
+	border-left:none;
+}
+td{
+	border-left:1px solid #ccc;
+	padding:4px;
+}
+td:first-child{
+	border-left:none;
+}
+tr:nth-child(2n+1){
+	background:#888;
+}
+
+.boxFrame{
+	margin: 10px auto;
+	background: rgba(20, 56, 70, 0.8);
+	-webkit-border-radius: 4px;
+	width: 98%;
+	border: solid 1px #B39331;
+	box-shadow: inset 1px 1px 1px black,inset -1px -1px 1px black;
+	padding: 5px;
+	position: relative;
+	z-index: 1;
+}
+.boxFrame hr{
+	border-top: 1px solid #002130;
+	border-bottom:1px solid rgba(7, 74, 103, 0.71);
+	background: none;
+	height: 0px;
+	position: relative;
+	left: -5px;
+	width: 293px;
+}
+
+.simpleBtn{
+	text-shadow: -1px -1px 1px black;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	display: inline-block;
+	width: 298px;
+	height: 39px;
+	line-height: 39px;
+	border-bottom: solid 1px #373737;
+	border-top: solid 1px #3D3D3D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B9B3A2), color-stop(0.5, #857F6E), color-stop(0.5, #625C4A), to(#6C6655));
+	margin: 10px 5px;
+	border-radius: 5px;
+	border: solid 1px #B4A895;
+	-webkit-box-shadow: inset 1px 1px #615D54;
+	text-align:center;
+}
+.simpleBtn a {
+	text-decoration: none;
+	width: 298px;
+	color: #fff;
+	display: block;
+}

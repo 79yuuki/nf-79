@@ -1,0 +1,13 @@
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+.tags*
+
+#NPM modules
+node_modules/
+

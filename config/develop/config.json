@@ -1,0 +1,16 @@
+{
+
+    "ENV_NAME": "develop",
+    "NAME": "開発環境",
+    "HOST_NAME": "localhost",
+    "PORT": "3000",
+    "BASIC_AUTH": "",
+    "handlers": {
+        "home": {
+            "url": "/"
+        },
+        "hoge/fuga": {
+            "url": "/hoge/fuga"
+        }
+    }
+}

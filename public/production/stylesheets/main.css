@@ -1,0 +1,80 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+img.bg {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height:auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#logo {
+	height: 33px;
+}
+
+#navi {
+	position: absolute;
+	width: 800px;
+}
+
+#top-navichara {
+	position: absolute;
+	height: 414px;
+	margin-top: 30px;
+}
+
+.popover {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 313px;
+	margin: 25px;
+	top: 110px;
+	left: 350px;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+background-color: #16A085;
+color: white;
+}
+
+@media screen and (max-width: 1024px){
+	img.bg {
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+
+div#container {
+	position: relative;
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+.navbar-inner {
+	background-color: #1ABC9C;
+	border-color: #16A085;
+}
+
+#title {
+	color: #FFF;
+	font-weight: bold;
+}
+
+#prefix {
+	color: #FFF;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  color: #FFF;
+  background-color: #16A085;
+}

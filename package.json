@@ -1,0 +1,44 @@
+{
+  "name": "fs-79",
+  "version": "0.0.1",
+  "description": "Node Framework 79",
+  "keywords": "79",
+  "author": {
+    "name": "Yuki Shichiku",
+    "email": "yuuki.79@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "expect.js": "0.2.x",
+    "mocha": "1.10.x",
+    "log4js": "0.6.x",
+    "request": "2.21.x",
+    "express": "3.0.6",
+    "express-partials": "0.0.1",
+    "express-validator": "0.3.x",
+    "ejs": "0.8.x",
+    "mysql": "~2.0.0-alpha8",
+    "underscore": "1.4.x",
+    "sequelize": "1.7.0-alpha2",
+    "async": "0.2.x",
+    "commander": "1.1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.10.x",
+    "supertest": "0.6.x",
+    "assert": "0.4.x",
+    "expect.js": "0.2.x"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ]
+}
